@@ -31,7 +31,7 @@ nav ul li{
 .Banner-Container{
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 20px;
     background-image:url("./images/Hero-bg.png");
@@ -78,7 +78,7 @@ margin-bottom: 36px;
 .Development-begins{
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     padding: 80px 97px 80px 97px;
     background-color: #fafafb;
@@ -147,7 +147,7 @@ margin-bottom: 36px;
 
 }
 .develop-titlevideo{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     text-align: center;
 }
@@ -251,7 +251,7 @@ background: rgb(255, 255, 255);
     height: 100px;
     margin: 0 auto;
     margin-top: 150px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction:row;
     justify-content: space-between;
