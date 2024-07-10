@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Azeret Mono", monospace;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between ;
+}
+nav h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+text-align: left;
+}
+nav ul li a button{
+border: 1px solid rgb(13, 19, 33);
+border-radius: 5px;
+}
+nav ul li{
+    list-style: none;
+}
+/* Banner Section Style Starts Here  */
+.Banner-Container{
+    width: 1440px;
+    height: 652px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image:url("./images/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Banner-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+.Banner-Content h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.Banner-Content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 36px;
+}
+.Banner-Content ul li a button{
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.Banner-Content ul li{
+    list-style: none;
+}
+/* Section Web Dev Style Starts */
+.Development-begins{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    background-color: #fafafb;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.develop-title h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;   
+    text-align: center;
+}
+.develop-title p{
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;     
+}
+.coding-primary{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    }
+ .codingprimary-title h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin: 16px 0;
+    }
+.codingprimary-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 50px;
+}
+.btn-primary{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+.coding-secondary{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center; 
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.coding-third {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+
+}
+.develop-titlevideo{
+    border: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+.Target{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    }  
+
+.Target-container{
+    display: flex;
+    gap: 130px;
+    margin-top: 100px;
+}
+.target-a{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 40px;
+}
+.target-b{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 40px;
+}
+.target-c{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 40px;
+}
