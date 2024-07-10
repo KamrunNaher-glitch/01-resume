@@ -189,3 +189,17 @@ margin-bottom: 36px;
     line-height: 26px;
     padding: 40px;
 }
+/* Need Support styles */
+.need-support{
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 64px 48px 64px 48px;
+}
