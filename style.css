@@ -202,4 +202,68 @@ margin-bottom: 36px;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 64px 48px 64px 48px;
+    position: relative;  
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.need-support h5{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    height: 70px;
+}
+.need-support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    height: 70px;
+}
+
+.Feedback-Submit{
+position: static;
+width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px; 
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.btn-secondary{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 120px;
+    padding: 10px;
+}
+/* Footer Section Styles */
+.Open-commitment{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+.Open-commitment h6{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
 }
