@@ -150,7 +150,18 @@ margin-bottom: 36px;
     /* border: 2px solid red; */
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
+    padding: 20px;
 }
+.develop-titlevideo h3 {
+    margin-top: 50px;
+}
+.develop-titlevideo p{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 .Target{
     width: 1140px;
     height: 463px;
